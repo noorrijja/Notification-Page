@@ -15,11 +15,15 @@ Users should be able to:
 
 #### Mobile (iphone 6/6s)
 
+![screencapture-127-0-0-1-5500-notifications-page-main-index-html-2024-02-13-23_18_48](https://github.com/noorrijja/Notification-Page/assets/144622904/75bc5426-6ef0-4109-b41c-5c60c26e6cd1)
+
 #### Desktop (Macbook Pro)
 
-### Read Notifications
+### Read Notifications![screencapture-127-0-0-1-5500-notifications-page-main-index-html-2024-02-13-23_18_02](https://github.com/noorrijja/Notification-Page/assets/144622904/6b6df979-936c-4b51-996a-41acba409a8f)
 
 ### Unread Notifications
+
+![screencapture-127-0-0-1-5500-notifications-page-main-index-html-2024-02-13-23_21_26](https://github.com/noorrijja/Notification-Page/assets/144622904/11cd65d1-4e9d-4897-bbcc-daa9a6161218)
 
 ### Built with
 
