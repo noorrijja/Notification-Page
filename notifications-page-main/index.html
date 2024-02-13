@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="flex-notification-panel">
+        <div class="notifications">
+          <h3>Notifications</h3>
+          <div class="unread-notifications">3</div>
+        </div>
+        <button class="mark-as-read">Mark all as read</button>
+      </div>
+      <button class="notification-1 read-notifications">
+        <div class="content-1">
+          <img
+            src="./assets/images/avatar-mark-webber.webp"
+            alt="mark weber's profile"
+            class="profile"
+          />
+
+          <div class="message">
+            <span class="name">Mark Webber</span
+            ><span class="text"> reacted to your recent post</span
+            ><span class="bold"> My first tournamnet today! </span>
+            <div class="active"></div>
+            <span class="time">1m ago</span>
+          </div>
+        </div>
+      </button>
+      <button class="notification-2 read-notifications">
+        <div class="content-2">
+          <img
+            src="./assets/images/avatar-angela-gray.webp"
+            alt="angela's profile"
+            class="profile"
+          />
+          <div class="message">
+            <span class="name">Angela Gray</span
+            ><span class="text"> followed you </span>
+            <div class="active"></div>
+            <span class="time">5m ago</span>
+          </div>
+        </div>
+      </button>
+      <button class="notification-3 read-notifications">
+        <div class="content-3">
+          <img
+            src="./assets/images/avatar-jacob-thompson.webp"
+            alt="Jacob's profile"
+            class="profile"
+          />
+          <div class="message">
+            <span class="name">Jacob Thompson</span
+            ><span class="text"> has joined your group</span
+            ><span class="club"> Chess Club </span>
+            <div class="active"></div>
+            <span class="time">1 day ago</span>
+          </div>
+        </div>
+      </button>
+      <button class="notification-4">
+        <div class="content-4">
+          <img
+            src="./assets/images/avatar-rizky-hasanuddin.webp"
+            alt="Rizky's profile"
+            class="profile"
+          />
+          <div class="message">
+            <span class="name">Rizky Hasanuddin</span
+            ><span class="text"> sent you a private message</span>
+            <div></div>
+            <span class="time"> 5 days ago</span>
+          </div>
+        </div>
+      </button>
+      <div class="private-message collapsed">
+        <p>
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </p>
+      </div>
+      <button class="notification-5">
+        <div class="content-5">
+          <img
+            src="./assets/images/avatar-kimberly-smith.webp"
+            alt="Kimberley's profile"
+            class="profile"
+          />
+
+          <div class="message">
+            <span class="name">Kimberly Smith</span
+            ><span class="text"> commented on your picture</span>
+            <div></div>
+            <span class="time"> 1 week ago</span>
+          </div>
+          <img
+            src="./assets/images/image-chess.webp"
+            alt="picture"
+            class="picture-comment"
+          />
+        </div>
+      </button>
+      <button class="notification-6">
+        <div class="content-6">
+          <img
+            src="./assets/images/avatar-nathan-peterson.webp"
+            alt="Nathan's profile"
+            class="profile"
+          />
+          <div class="message">
+            <span class="name">Nathan Peterson</span
+            ><span class="text"> reacted to your recent post</span
+            ><span class="bold"></span>
+            <div></div>
+            <span class="time">2 weeks ago</span>
+          </div>
+        </div>
+      </button>
+      <button class="notification-7">
+        <div class="content-7">
+          <img
+            src="./assets/images/avatar-anna-kim.webp"
+            alt="Anna's profile"
+            class="profile"
+          />
+          <div class="message">
+            <span class="name">Anna Kim</span
+            ><span class="text"> left the group</span
+            ><span class="club"> Chess Club</span>
+            <div></div>
+            <span class="time">2 weeks ago</span>
+          </div>
+        </div>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
